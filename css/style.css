@@ -1,0 +1,85 @@
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+:root {
+    font-family: 'Rubik Mono One', monospace;
+}
+
+/*Generics*/
+nav {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+li {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #fff;
+    line-height: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    padding: 0 50px
+}
+
+/*Container*/
+
+.container {
+    position: relative;
+}
+
+.fullscreen {
+    height: 100vh;
+}
+
+
+
+.fullscreen>* {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    width: 900px;
+    margin: auto;
+}
+
+#fullscreen-red {
+    background-color: red;
+    color: yellow;
+}
+
+#fullscreen-green {
+    background-color: green;
+    color: yellow;
+}
+
+#fullscreen-yellow {
+    background-color: yellow;
+    color: green;
+}
